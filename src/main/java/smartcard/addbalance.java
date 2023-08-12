@@ -23,7 +23,7 @@ import static metro_system.convar.username;
 
 /**
  *
- * @author sparsh
+ * @author
  */
 public class addbalance extends javax.swing.JInternalFrame  implements convar{
 

@@ -22,10 +22,11 @@ import metro.newmetro;
 import metro.fetchmetro;
 import java.sql.*;
 import javax.swing.JOptionPane;
+import metro.findpath;
 
 /**
  *
- * @author sparsh
+ * @author
  */
 public class mainframe extends javax.swing.JFrame {
 
@@ -50,8 +51,10 @@ public class mainframe extends javax.swing.JFrame {
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
+        jPanel1 = new javax.swing.JPanel();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
+        jMenuItem21 = new javax.swing.JMenuItem();
         jMenuItem1 = new javax.swing.JMenuItem();
         jMenuItem2 = new javax.swing.JMenuItem();
         jMenuItem5 = new javax.swing.JMenuItem();
@@ -114,6 +117,8 @@ public class mainframe extends javax.swing.JFrame {
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/metro_system/Incofer-CRRC-DMU-final-design (2).jpg"))); // NOI18N
         jDesktopPane1.add(jLabel2);
         jLabel2.setBounds(10, 0, 1280, 719);
+        jDesktopPane1.add(jPanel1);
+        jPanel1.setBounds(80, 50, 10, 10);
 
         getContentPane().add(jDesktopPane1);
         jDesktopPane1.setBounds(-10, 0, 1400, 990);
@@ -124,6 +129,15 @@ public class mainframe extends javax.swing.JFrame {
                 jMenu1ActionPerformed(evt);
             }
         });
+
+        jMenuItem21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/metro_system/find_path.jpg"))); // NOI18N
+        jMenuItem21.setText("Find Path");
+        jMenuItem21.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem21ActionPerformed(evt);
+            }
+        });
+        jMenu1.add(jMenuItem21);
 
         jMenuItem1.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_N, java.awt.event.InputEvent.CTRL_DOWN_MASK));
         jMenuItem1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/metro_system/newmetro.jpeg"))); // NOI18N
@@ -500,6 +514,13 @@ cardbooksearch obj=new cardbooksearch();
             obj.setVisible(true); 
     }//GEN-LAST:event_jMenuItem16ActionPerformed
 
+    private void jMenuItem21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem21ActionPerformed
+        // TODO add your handling code here:
+        findpath obj = new findpath();
+        jDesktopPane1.add(obj);
+        obj.setVisible(true); 
+    }//GEN-LAST:event_jMenuItem21ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -561,6 +582,7 @@ cardbooksearch obj=new cardbooksearch();
     private javax.swing.JMenuItem jMenuItem19;
     private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JMenuItem jMenuItem20;
+    private javax.swing.JMenuItem jMenuItem21;
     private javax.swing.JMenuItem jMenuItem3;
     private javax.swing.JMenuItem jMenuItem4;
     private javax.swing.JMenuItem jMenuItem5;
@@ -568,5 +590,6 @@ cardbooksearch obj=new cardbooksearch();
     private javax.swing.JMenuItem jMenuItem7;
     private javax.swing.JMenuItem jMenuItem8;
     private javax.swing.JMenuItem jMenuItem9;
+    private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }

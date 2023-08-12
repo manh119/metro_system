@@ -26,7 +26,7 @@ import metro_system.convar;
 
 /**
  *
- * @author sparsh
+ * @author
  */
 public class token extends javax.swing.JInternalFrame implements convar ,Printable{
 

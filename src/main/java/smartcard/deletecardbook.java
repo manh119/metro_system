@@ -15,7 +15,7 @@ import metro_system.convar;
 
 /**
  *
- * @author sparsh
+ * @author
  */
 public class deletecardbook extends javax.swing.JInternalFrame implements convar {
     

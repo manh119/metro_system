@@ -14,7 +14,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author sparsh
+ * @author
  */
 public class deleteemployee extends javax.swing.JInternalFrame implements convar {
     

@@ -12,7 +12,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author sparsh
+ * @author
  */
 public class createemployee extends javax.swing.JInternalFrame implements convar {
 
@@ -122,7 +122,7 @@ public class createemployee extends javax.swing.JInternalFrame implements convar
 
         /**
         *
-        * @author sparsh
+        * @author
         */
 
         Connection myconnection;

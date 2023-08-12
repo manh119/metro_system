@@ -26,7 +26,7 @@ import metro_system.convar;
 
 /**
  *
- * @author sparsh
+ * @author
  */
 public class emptoken extends javax.swing.JInternalFrame implements convar ,Printable{
 

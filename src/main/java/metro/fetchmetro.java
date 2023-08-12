@@ -16,7 +16,7 @@ import metro_system.mainframe;
 
 /**
  *
- * @author sparsh
+ * @author
  */
 public class fetchmetro extends javax.swing.JInternalFrame implements convar {
      static String s="";

@@ -47,7 +47,7 @@ import metro_system.convar;
 
 /**
  *
- * @author sparsh
+ * @author
  */
 public class empCashreciept extends javax.swing.JInternalFrame implements convar,Printable {
 

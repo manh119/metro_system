@@ -19,7 +19,7 @@ import static metro_system.convar.username;
 
 /**
  *
- * @author sparsh
+ * @author
  */
 public class addfare extends javax.swing.JInternalFrame implements convar{
 

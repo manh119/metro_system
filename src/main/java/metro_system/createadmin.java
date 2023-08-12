@@ -16,7 +16,7 @@ import static metro_system.convar.username;
 
 /**
  *
- * @author sparsh
+ * @author
  */
 public class createadmin extends javax.swing.JFrame {
 

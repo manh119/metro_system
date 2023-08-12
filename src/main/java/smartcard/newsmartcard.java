@@ -37,7 +37,7 @@ import metro_system.mainframe;
 
 /**
  *
- * @author sparsh
+ * @author
  */
 public class newsmartcard extends javax.swing.JInternalFrame implements convar{
     static String sno="";

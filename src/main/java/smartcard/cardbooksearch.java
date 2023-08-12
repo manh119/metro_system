@@ -15,7 +15,7 @@ import metro_system.mainframe;
 
 /**
  *
- * @author sparsh
+ * @author
  */
 public class cardbooksearch extends javax.swing.JInternalFrame  implements convar{
 

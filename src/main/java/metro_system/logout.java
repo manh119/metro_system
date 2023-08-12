@@ -7,7 +7,7 @@ package metro_system;
 
 /**
  *
- * @author sparsh
+ * @author
  */
 public class logout extends javax.swing.JInternalFrame {
 

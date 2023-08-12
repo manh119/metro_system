@@ -15,7 +15,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author sparsh
+ * @author
  */
 public class login extends javax.swing.JFrame implements convar {
    public static String s="";
